@@ -1,0 +1,51 @@
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Example icon styles */
+  .home {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .home::before {
+    content: "\f015"; /* Font Awesome home icon */
+    font-family: FontAwesome;
+    font-size: 24px;
+  }
+  
+  .search {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .search::before {
+    content: "\f002"; /* Font Awesome search icon */
+    font-family: FontAwesome;
+    font-size: 24px;
+  }
+  .custom-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #3498db;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 60% 20%, 70% 0%, 100% 20%, 100% 80%, 70% 100%, 60% 80%, 50% 100%, 40% 80%, 30% 100%, 20% 80%, 0% 80%, 0% 20%, 20% 0%, 30% 20%, 40% 0%);
+  }
+  .image-icon {
+    width: 48px;
+    height: 48px;
+    background-image: url('icon.png');
+    background-size: cover;
+  }
+  

@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tag[data-tag="HTML"] {
+    background-color: #e44d26;
+}
+
+.tag[data-tag="CSS"] {
+    background-color: #264de4;
+}
+
+.tag[data-tag="JavaScript"] {
+    background-color: #f0db4f;
+    color: #323330;
+}
+
+.tag[data-tag="Python"] {
+    background-color: #3776ab;
+}
+
+.tag[data-tag="React"] {
+    background-color: #61dbfb;
+    color: #323330;
+}
+
+.tag:hover {
+    background-color: #0056b3;
+}
+
+.tag[data-tag="JavaScript"]:hover {
+    background-color: #e5c231;
+}
+
+.tag[data-tag="React"]:hover {
+    background-color: #48c9f1;
+}

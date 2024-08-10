@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.breadcrumb-container {
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+    color: #0056b3;
+}
+
+.separator {
+    margin: 0 8px;
+    color: #666;
+}
+
+.breadcrumb span {
+    color: #999;
+    font-weight: bold;
+}
